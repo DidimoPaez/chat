@@ -1,0 +1,16 @@
+[package]
+name = "chat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.210", features = ["derive"] }
+
+[[bin]]
+name = "chat"
+path = "src/chat.rs"
+
+[[bin]]
+name = "cliente"
+path = "src/cliente.rs"
+
